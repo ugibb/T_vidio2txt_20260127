@@ -1,0 +1,11 @@
+# MP4 抽离音频
+moviepy>=1.0.3
+
+# 音频转写（依赖 ffmpeg，需系统已安装）
+openai-whisper>=20231117
+
+# 步骤四：大语言模型整理大纲与章节概要（OpenAI 兼容接口）
+openai>=1.0.0
+
+# 从 .env 加载秘钥等配置
+python-dotenv>=1.0.0
